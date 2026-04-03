@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]: Apply
+    - generic [ref=e7]:
+      - link " Login" [ref=e8] [cursor=pointer]:
+        - /url: /login
+        - button " Login" [ref=e9]:
+          - generic [ref=e10]: 
+          - text: Login
+      - link " Careers" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - button " Careers" [ref=e12]:
+          - generic [ref=e13]: 
+          - text: Careers
+  - generic [ref=e17]:
+    - generic [ref=e18]: Profile Details
+    - generic [ref=e19]:
+      - generic [ref=e20]: john4844@example.com already registered. Use another email.
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: First Name*
+          - textbox "Enter First Name" [ref=e24]: John
+        - generic [ref=e25]:
+          - generic [ref=e26]: Middle Name
+          - textbox "Optional" [ref=e27]: Richard
+        - generic [ref=e28]:
+          - generic [ref=e29]: Last Name*
+          - textbox "Enter Last Name" [ref=e30]: Doe
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Email*
+          - textbox "Enter Email" [ref=e34]: john4844@example.com
+        - generic [ref=e35]:
+          - generic [ref=e36]: Password*
+          - textbox "Enter Password" [ref=e37]: welcome
+        - generic [ref=e38]:
+          - generic [ref=e39]: Confirm Password*
+          - textbox "Confirm Password" [ref=e40]: welcome
+      - generic [ref=e42]:
+        - generic [ref=e43]: Summary*
+        - textbox "Enter detailed Summary" [ref=e44]: Candidate summary
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: Address
+          - textbox "123 Main st" [ref=e48]
+        - generic [ref=e49]:
+          - generic [ref=e50]: City*
+          - textbox "City" [ref=e51]: New York
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: State*
+          - combobox [ref=e55]:
+            - option "Choose..."
+            - option "Alabama"
+            - option "Alaska"
+            - option "Arizona"
+            - option "Arkansas"
+            - option "California"
+            - option "Colorado"
+            - option "Connecticut"
+            - option "Delaware"
+            - option "District Of Columbia"
+            - option "Florida"
+            - option "Georgia"
+            - option "Hawaii"
+            - option "Idaho"
+            - option "Illinois"
+            - option "Indiana"
+            - option "Iowa"
+            - option "Kansas"
+            - option "Kentucky"
+            - option "Louisiana"
+            - option "Maine"
+            - option "Maryland"
+            - option "Massachusetts"
+            - option "Michigan"
+            - option "Minnesota"
+            - option "Mississippi"
+            - option "Missouri"
+            - option "Montana"
+            - option "Nebraska"
+            - option "Nevada"
+            - option "New Hampshire"
+            - option "New Jersey"
+            - option "New Mexico"
+            - option "New York" [selected]
+            - option "North Carolina"
+            - option "North Dakota"
+            - option "Ohio"
+            - option "Oklahoma"
+            - option "Oregon"
+            - option "Pennsylvania"
+            - option "Rhode Island"
+            - option "South Carolina"
+            - option "South Dakota"
+            - option "Tennessee"
+            - option "Texas"
+            - option "Utah"
+            - option "Vermont"
+            - option "Virginia"
+            - option "Washington"
+            - option "West Virginia"
+            - option "Wisconsin"
+            - option "Wyoming"
+        - generic [ref=e56]:
+          - generic [ref=e57]: Zip code
+          - textbox "Zip code. Zip plus" [ref=e58]: "10100"
+      - button "Submit" [ref=e59] [cursor=pointer]
+```

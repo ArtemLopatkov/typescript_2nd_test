@@ -1,0 +1,44 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="9.939868999999948">
+<testsuite name="careers.spec.ts" timestamp="2026-04-03T21:52:47.681Z" hostname="chromium" tests="1" failures="1" skipped="0" time="9.004" errors="0">
+<testcase name="careers new candidate general apply codegen" classname="careers.spec.ts" time="9.004">
+<failure message="careers.spec.ts:5:1 careers new candidate general apply codegen" type="FAILURE">
+<![CDATA[  [chromium] › careers.spec.ts:5:1 › careers new candidate general apply codegen ───────────────────
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: ' Logout' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 5000ms
+      - waiting for getByRole('button', { name: ' Logout' })
+
+
+      23 |   await page.waitForTimeout(3000);
+      24 |   const headerSection = new CareersHeaderPage(page);
+    > 25 |   await expect(page.getByRole('button', { name: ' Logout' })).toBeVisible();
+         |                                                                ^
+      26 |   await expect(page.getByRole('button', { name: ' My Jobs' })).toBeVisible();
+      27 |   await expect(page.locator('#shuffle')).toContainText('John Richard Doe');
+      28 |   await page.waitForTimeout(5000);
+        at C:\Users\Artem\Desktop\Repo\POM\typescript-playwright-bdd\tests\careers.spec.ts:25:64
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\careers-careers-new-candidate-general-apply-codegen-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\careers-careers-new-candidate-general-apply-codegen-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\careers-careers-new-candidate-general-apply-codegen-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\careers-careers-new-candidate-general-apply-codegen-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

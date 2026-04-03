@@ -1,0 +1,46 @@
+{
+  "validUser": {
+    "gender": "male",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "dateOfBirth": {
+      "day": "15",
+      "month": "5",
+      "year": "1990"
+    },
+    "company": "Test Company Ltd",
+    "newsletter": true
+  },
+  "validUserFemale": {
+    "gender": "female",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "password": "securePass456",
+    "dateOfBirth": {
+      "day": "22",
+      "month": "8",
+      "year": "1985"
+    },
+    "company": "Smith Enterprises",
+    "newsletter": false
+  },
+  "minimumRequiredFields": {
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test.user@example.com",
+    "password": "minimum123"
+  },
+  "invalidData": {
+    "shortPassword": "12345",
+    "invalidEmail": "not-an-email",
+    "emptyFields": {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": ""
+    }
+  }
+}
