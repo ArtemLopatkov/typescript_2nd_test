@@ -67,14 +67,14 @@
   },
   "suites": [
     {
-      "title": "careers.spec.ts",
-      "file": "careers.spec.ts",
+      "title": "footer.spec.ts",
+      "file": "footer.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "careers new candidate general apply codegen",
-          "ok": false,
+          "title": "Footer items hover effect",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -85,60 +85,31 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 9004,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: ' Logout' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: ' Logout' })\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: ' Logout' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: ' Logout' })\u001b[22m\n\n    at C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\tests\\careers.spec.ts:25:64",
-                    "location": {
-                      "file": "C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\tests\\careers.spec.ts",
-                      "column": 64,
-                      "line": 25
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m3000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m   \u001b[36mconst\u001b[39m headerSection \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mCareersHeaderPage\u001b[39m(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 25 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m' Logout'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m' My Jobs'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#shuffle'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'John Richard Doe'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 28 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m5000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\tests\\careers.spec.ts",
-                        "column": 64,
-                        "line": 25
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: ' Logout' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: ' Logout' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m3000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m   \u001b[36mconst\u001b[39m headerSection \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mCareersHeaderPage\u001b[39m(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 25 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m' Logout'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m' My Jobs'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#shuffle'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'John Richard Doe'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 28 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m5000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\tests\\careers.spec.ts:25:64\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 4140,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-03T21:52:48.120Z",
+                  "startTime": "2026-04-03T22:59:46.468Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\test-results\\careers-careers-new-candidate-general-apply-codegen-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\test-results\\careers-careers-new-candidate-general-apply-codegen-chromium\\error-context.md"
+                      "path": "C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\test-results\\footer-Footer-items-hover-effect-chromium\\test-finished-1.png"
                     }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\Artem\\Desktop\\Repo\\POM\\typescript-playwright-bdd\\tests\\careers.spec.ts",
-                    "column": 64,
-                    "line": 25
-                  }
+                  ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "0b1fe1845a252d134453-379fc9617d894c696315",
-          "file": "careers.spec.ts",
-          "line": 5,
+          "id": "5c5f4c4f9f8c9928dd12-4049989b9c1c75ad38f0",
+          "file": "footer.spec.ts",
+          "line": 4,
           "column": 1
         }
       ]
@@ -146,11 +117,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-04-03T21:52:47.233Z",
-    "duration": 9939.868999999948,
-    "expected": 0,
+    "startTime": "2026-04-03T22:59:45.571Z",
+    "duration": 5193.879000000001,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
